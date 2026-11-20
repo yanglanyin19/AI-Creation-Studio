@@ -1,0 +1,10 @@
+{
+    "name": "canvas-graph-server",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "node graph-server.mjs",
+        "mcp": "node graph-server.mjs --mcp"
+    }
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AI 创作工作台 · 结束</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: radial-gradient(circle at 50% 20%, #1f1d1a 0%, #0c0b0a 55%, #050505 100%);
+    color: #f5f5f4;
+    font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  }
+  .wrap { text-align: center; padding: 48px; }
+  h1 { margin: 0 0 14px; font-size: 54px; letter-spacing: -.04em; }
+  .sub { color: #a8a29e; font-size: 18px; }
+  .grid { margin-top: 32px; display: grid; grid-template-columns: repeat(2, minmax(240px, 1fr)); gap: 14px; text-align: left; }
+  .item { padding: 16px 18px; border-radius: 12px; background: #141210; border: 1px solid #292524; }
+  .item b { display: block; font-size: 16px; margin-bottom: 6px; }
+  .item span { color: #a8a29e; font-size: 13px; line-height: 1.6; }
+  .foot { margin-top: 30px; color: #57534e; font-size: 12px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>让创作链路更短</h1>
+    <div class="sub">从一句话，到图片，再到视频。</div>
+    <div class="grid">
+      <div class="item"><b>轻量无限画布</b><span>4 个预设模板，少量节点完成常用创作链路</span></div>
+      <div class="item"><b>BYOK</b><span>OpenAI 兼容 / Gemini / 自定义脚本，模型自由切换</span></div>
+      <div class="item"><b>Agent 原生</b><span>JSON Graph + REST / MCP，Agent 直接读写画布</span></div>
+      <div class="item"><b>万相 3.0</b><span>文生、首尾帧、全能参考、编辑、延长，8 种模式已实测</span></div>
+    </div>
+    <div class="foot">AI 创作工作台 · v0.0.1 · 基于 basketikun/infinite-canvas（MIT）二次开发</div>
+  </div>
+</body>
+</html>
